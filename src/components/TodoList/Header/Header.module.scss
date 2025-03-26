@@ -1,0 +1,33 @@
+.Header {
+	border-bottom: 1px solid #dedede;
+	.input {
+		font-size: 32px;
+		border: none;
+		border-radius: 0;
+		gap: 20px;
+		justify-content: space-between;
+		&::before {
+			content: none;
+		}
+
+		.inputPrefix {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 48px;
+			height: 48px;
+		}
+
+		:global {
+			.ant-input-prefix {
+				width: 36px;
+			}
+
+			.ant-input {
+				&::placeholder {
+					font-style: italic;
+				}
+			}
+		}
+	}
+}

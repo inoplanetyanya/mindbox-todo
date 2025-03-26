@@ -1,0 +1,22 @@
+.Footer {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	gap: 20px;
+	padding: 10px;
+	font-size: 14px;
+
+	.active {
+		background-color: #1677ff;
+		color: #fff;
+	}
+
+	.itemsLeft {
+		font-size: 1em;
+	}
+
+	.filter {
+		.button {
+		}
+	}
+}
